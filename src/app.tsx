@@ -1,10 +1,11 @@
 import React from 'react';
+import './styles/pages/login.css'
+
+import Routes from './routes';
 
 function App(){
     return(
-        <div className="container">
-            <h1>Hello World</h1>
-        </div>
+        <Routes />
     );
 };
 
