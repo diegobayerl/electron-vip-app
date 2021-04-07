@@ -1,0 +1,30 @@
+#header {
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    background-color: #D13438;
+
+    display: flex;
+    
+
+    justify-content: start;
+    align-items: center;
+}
+
+#header .logo-name {
+    min-width: 730px;
+    padding-left: 35px;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+}
+
+#header .logo-name h2 {
+    color: #f2f2f2;
+}
+
+#header .logo-name h3 {
+    color: #f2f2f2;
+}
