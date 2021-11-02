@@ -1,0 +1,40 @@
+#header {
+    background-color: rgb(255, 255, 255);
+    height: 56px;
+    width: 100vw;
+
+	box-shadow:         0px 0px 1px rgba(50, 50, 50, 0.77);
+
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 8px;
+}
+
+#header div {
+    padding: 0px 32px 0px 32px;
+}
+
+
+div a {
+
+    padding: 0px 15px 0px 15px;
+
+    color: #877774;
+    text-decoration: none;
+
+    transition: background-color 0.2s;
+    position: relative;
+    align-items: center;
+
+    font-size: larger;
+}
+
+div a:hover {
+    color: #A41624;
+}
+
+div a.item-select {
+    color: #db051a;
+}

@@ -1,0 +1,5 @@
+#page-produto {
+    display: flex;
+  
+    flex-direction: column;
+  }

@@ -1,0 +1,5 @@
+#page-promo {
+    display: flex;
+  
+    flex-direction: column;
+  }
