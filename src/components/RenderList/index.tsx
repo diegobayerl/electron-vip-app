@@ -46,7 +46,7 @@ export default function RenderItem({ rote }: Props){
                     return (
                         <li key={item.id} className="list">
                             <Link to={`/detalhe/${item.id}`}>
-                            <div className="main-item">
+                            <div className={"main-item"}>
                                 <strong>{item.id}</strong>
                                 <strong>{item.nameProduct}</strong>
                                 <strong>R$ {item.value.toFixed(2)}</strong>

@@ -13,25 +13,14 @@
   margin-top: 24px;
   height: 44px;
   width: 624px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #page-home div.main-container div div.header h3 {
-  margin: 48px 0px 8px 48px;
+  margin: 0px 0px 0px 36px;
   font-size: x-large;
-}
-
-#page-home div.main-container div div.header div.header-item {
-  display: flex;
-  justify-content: space-between;
-
-  padding: 0px 24px 0px 48px;
-
-}
-
-#page-home div.main-container div.card {
-  display: flex;
-
-  margin: 48px 0px 0px 24px;
-
 }
   

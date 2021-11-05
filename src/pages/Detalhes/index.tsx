@@ -153,7 +153,12 @@ export default function Datalhe() {
         
         <div className="card-r">
           <img src={product.url} />
-          <a onClick={() => finalizar(request.statusEntrega)}>Preparar Pedido</a>
+          {request.statusEntrega === 'em preparo' ? (
+             <a onClick={() => finalizar(request.statusEntrega)}>Enviar Pedido</a>
+          ):(
+            <a onClick={() => finalizar(request.statusEntrega)}>Finalizar Pedido</a>
+          )}
+         
         </div>
       </main>
     </div>
